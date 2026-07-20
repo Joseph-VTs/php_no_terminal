@@ -86,6 +86,9 @@ while (true) {
                                 }
                                 $funcionario_senha = trim(readline("Senha de Acesso: "));
 
+                                printf("%-30s\n", "Admin - Normal - Sistema");
+                                $funcionario_tipo = trim(readline("Acesso do Usuário: "));
+
                                 printf("%-30s\n", "Sucesso: Funcionário Cadastrado.");
                                 readline("Pressione ENTER para Voltar...");
                                 break;
