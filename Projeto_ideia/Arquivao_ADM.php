@@ -1,14 +1,5 @@
 <?php
-$meu_banco = [
-    'Clientes' => [
-        'Nome' => [],
-        'Senha' => []
-    ],
-    'Funcionarios' => [
-        'Nome' => [],
-        'Senha' => []
-    ],
-];
+require_once('Dados.php'); // Acessos Salvos
 
 while (true) {
     system("clear");
@@ -19,8 +10,6 @@ while (true) {
     $opcao = trim(readline("Selecione uma Opção: "));
     switch ($opcao) {
         case '1':
-            $usuario_salvo = "Jose";
-            $senha_salva = "123"; // Informação Salva
 
             while (true) {
                 system("clear");
@@ -57,8 +46,6 @@ while (true) {
                     $opcao = trim(readline("Selecione uma Opção: "));
                     switch ($opcao) {
                         case '1':
-                            // Informação Salva
-                            $empresa_nome_salvo = "Mercado";
 
                             while (true) {
                                 system("clear");
@@ -83,9 +70,6 @@ while (true) {
 
                         case '2':
                             while (true) {
-                                // Informação Salva
-                                $funcionario_nome_salvo = "Maria";
-                                $funcionario_senha_salvo = "123";
 
                                 system("clear");
                                 printf("%-30s\n", "Cadastro de Funcionários");
