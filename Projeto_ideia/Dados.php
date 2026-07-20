@@ -19,6 +19,7 @@ $meu_banco = [
     ],
     'Funcionarios' => [
         'Nome' => [],
-        'Senha' => []
+        'Senha' => [],
+        'Tipo' => []
     ],
 ];
