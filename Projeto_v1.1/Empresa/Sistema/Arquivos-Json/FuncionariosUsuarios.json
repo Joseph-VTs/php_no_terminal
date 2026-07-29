@@ -1,0 +1,20 @@
+[
+    {
+        "Nome": "José",
+        "Sobrenome": "Vinícius",
+        "Idade": "25",
+        "Senha": "123456"
+    },
+    {
+        "Nome": "Talita",
+        "Sobrenome": "Maria",
+        "Idade": "26",
+        "Senha": "123456"
+    },
+    {
+        "Nome": "Talita",
+        "Sobrenome": "Ehms",
+        "Idade": "25",
+        "Senha": "123456"
+    }
+]
