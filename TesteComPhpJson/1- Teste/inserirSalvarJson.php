@@ -37,6 +37,7 @@ function CreateUsers(){
     /* ---------- Menu ---------- */
     // Apresentação
         echo("🔹 User Registration Form\n");
+        echo("🔹 Não pode Conter Acentuação Pois Gera Erro\n");
         echo("🔹 Digite 0 para sair\n");
 
     /* 1. ---------- Arquivo ---------- */
