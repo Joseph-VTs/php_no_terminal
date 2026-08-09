@@ -1,20 +1,9 @@
 [
     {
-        "Nome": "José",
-        "Sobrenome": "Vinícius",
-        "Idade": "25",
-        "Senha": "123456"
-    },
-    {
-        "Nome": "Talita",
-        "Sobrenome": "Maria",
-        "Idade": "26",
-        "Senha": "123456"
-    },
-    {
-        "Nome": "Talita",
-        "Sobrenome": "Ehms",
-        "Idade": "25",
-        "Senha": "123456"
+        "Nome": "Jotaiton",
+        "Sobrenome": "Alertor",
+        "Idade": "22",
+        "Tipo": "read",
+        "Senha": "$2y$10$xc\/SGOgWfwUdIGPlq2bxuuUyFOG5uuL.\/B6sk0VUng9vNdNpWbMIe"
     }
 ]

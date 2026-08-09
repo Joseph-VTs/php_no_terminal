@@ -30,9 +30,11 @@ function userAdm(){
                 require_once(__DIR__ . '/modulos/UsuariosFuncionarios.php');
                 UsuariosFuncionarios();
                 break;
-
+                
             case '3';
                 echo ("Clientes");
+                require_once(__DIR__ . '/modulos/Clientes.php');
+                Clientes();
                 break;
 
             case '4';
